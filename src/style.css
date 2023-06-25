@@ -1,0 +1,170 @@
+body {
+  background-color: #e9f3f1;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.home-container {
+  padding-top: 300px;
+}
+
+.student-btn {
+  padding-top: 20px;
+}
+
+.home-content-a {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.home-content-b {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 5%;
+  top: 0;
+  z-index: 100;
+  margin-left: 5px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.student-data {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.student-table {
+  margin: auto;
+  width: 80%;
+}
+
+.delete-btn {
+  color: #f44336;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.student-filter {
+  margin: 25px 0;
+  width: 200px;
+}
+
+#table-student {
+  background-color: white;
+  margin: auto;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 5%;
+  border-collapse: collapse;
+}
+
+.box {
+  margin: auto;
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+.box-form {
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 2%;
+}
+
+.img-profile {
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+  margin: auto;
+}
+
+.edit-btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+label {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+input {
+  height: 20px;
+}
+
+select {
+  height: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.row label {
+  width: 49%;
+}
+
+.input-row {
+  height: 40px;
+}
+
+select {
+  height: 20px;
+}
+
+.add-btn {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.error-page {
+  padding-top: 340px;
+}
+
+.btn-error {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 20px;
+}
